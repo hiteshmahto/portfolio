@@ -18,8 +18,8 @@ const portfolioProjects = [
       { title: "Predict trends in customer visits" },
       { title: "Pinpoint factors boosting ratings" },
     ],
-    liveLink: "https://whatsapp-chats-insights.streamlit.app/",
-    githubLink: "https://github.com/hiteshmahto/Whatsapp-Chat-Analyzer",
+    liveLink: "",
+    githubLink: "",
     image: ongoingProject,
   },
   {
