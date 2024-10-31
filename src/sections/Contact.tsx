@@ -12,8 +12,9 @@ export const ContactSection = () => {
   const handleClick = () => {
     navigator.clipboard.writeText("hiteshmahto786@gmail.com");
     setIsClicked(true);
-    setTimeout(() => setIsClicked(false), 100);
+    setTimeout(() => setIsClicked(false), 500);
   };
+
   return (
     <div id="contact" className="py-16 pt-12 lg:py-24 lg:pt-20">
       <div className="container">
@@ -29,14 +30,17 @@ export const ContactSection = () => {
               <h2 className="font-serif text-2xl md:text-3xl">
                 Let’s Transform Data into Powerful Decisions
               </h2>
-              <p className="text-lg md:text-xl mt-4 inline-flex items-center gap-2">
+              <p className="text-lg md:text-xl mt-4 inline-flex items-center gap-2 relative">
                 <span>hiteshmahto786@gmail.com</span>
                 <ClipboardIcon
-                  className={`size-6 cursor-pointer transition-transform transform ${
-                    isClicked ? "translate-y-1" : ""
-                  }`}
+                  className="size-6 cursor-pointer"
                   onClick={handleClick}
                 />
+                {isClicked && (
+                  <span className="absolute top-full left-[95%] transform -translate-x-1/2 mt-1 text-sm bg-gray-800 text-white py-1 px-2.5 rounded-md shadow-lg">
+                    Copied!
+                  </span>
+                )}
               </p>
             </div>
             <div>
