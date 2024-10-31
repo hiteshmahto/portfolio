@@ -16,7 +16,7 @@ const footerLinks = [
   },
   {
     title: "Twitter",
-    href: "#",
+    href: "https://x.com/Hitesh_Mahto_",
     component: <XIcon className="size-7" />,
   },
 ];
