@@ -12,7 +12,7 @@ export const ContactSection = () => {
   const handleClick = () => {
     navigator.clipboard.writeText("hiteshmahto786@gmail.com");
     setIsClicked(true);
-    setTimeout(() => setIsClicked(false), 100); // Reset after 100ms
+    setTimeout(() => setIsClicked(false), 100);
   };
   return (
     <div id="contact" className="py-16 pt-12 lg:py-24 lg:pt-20">
