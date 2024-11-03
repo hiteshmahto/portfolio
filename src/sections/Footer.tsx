@@ -41,7 +41,7 @@ export const Footer = () => {
               <a
                 href={link.href}
                 key={link.title}
-                className="inline-flex items-center gap-1.5"
+                className="inline-flex items-center gap-1.5 hover:text-white/80"
                 target="_blank"
               >
                 {link.component}
