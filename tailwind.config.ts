@@ -30,6 +30,7 @@ const config: Config = {
         "ping-large": "ping-large 1s ease-in-out infinite",
         "move-left": "move-left 1s linear infinite",
         "move-right": "move-right 1s linear infinite",
+        bounceDownUp: "bounceDownUp 0.6s ease-in-out infinite",
       },
       keyframes: {
         "ping-large": {
@@ -52,6 +53,17 @@ const config: Config = {
           },
           "100%": {
             transform: "translateX(0%)",
+          },
+        },
+        bounceDownUp: {
+          "0%": {
+            transform: "translateY(0)",
+          },
+          "50%": {
+            transform: "translateY(8px)",
+          },
+          "100%": {
+            transform: "translateY(0)",
           },
         },
       },
