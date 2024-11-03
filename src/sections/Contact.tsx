@@ -28,7 +28,7 @@ export const ContactSection = () => {
           <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center">
             <div>
               <h2 className="font-serif text-2xl md:text-3xl">
-                Let’s Transform Data into Powerful Decisions
+                Ready to make informed decisions? Let&apos;s talk!
               </h2>
               <p className="text-lg md:text-xl mt-4 inline-flex items-center gap-2 relative">
                 <span>hiteshmahto786@gmail.com</span>
@@ -46,7 +46,7 @@ export const ContactSection = () => {
             <div>
               <a
                 href="mailto:hiteshmahto786@gmail.com"
-                className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900"
+                className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900 hover:bg-gray-900/95 transition duration-200"
               >
                 <span className="font-semibold">Contact Me</span>
                 <ArrowUpRightIcon className="size-4" />
