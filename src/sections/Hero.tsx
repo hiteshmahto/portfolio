@@ -136,14 +136,14 @@ export const HeroSection = () => {
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
           <button
-            className="inline-flex items-center gap-2 border border-white/15 bg-white text-gray-900 h-12 px-6 rounded-xl z-0"
+            className="inline-flex items-center gap-2 border border-white/15 bg-white text-gray-900 h-12 px-6 rounded-xl z-0 hover:bg-gray-200 hover:text-gray-800 transition duration-200"
             onClick={() => window.open("/hitesh_resume.pdf", "_blank")}
           >
             <span className="font-semibold">Download Resume</span>
-            <DownloadIcon className="size-7" />
+            <DownloadIcon className="size-6" />
           </button>
           <button
-            className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl z-0"
+            className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl z-0 group hover:bg-white/5 transition duration-200"
             onClick={() => {
               const projectSection = document.getElementById("projects");
               if (projectSection) {
@@ -152,7 +152,7 @@ export const HeroSection = () => {
             }}
           >
             <span className="font-semibold">Explore My Work</span>
-            <ArrowDown className="size-4" />
+            <ArrowDown className="size-4 group-hover:animate-bounceDownUp" />
           </button>
         </div>
       </div>

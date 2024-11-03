@@ -6,24 +6,24 @@ import whatsappAppAnalyzer from "@/assets/images/whatsapp-app-analyzer.png";
 import spotifyClone from "@/assets/images/spotify.png";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
-import ongoingProject from "@/assets/images/ongoingProject.png";
+import coffeeProject from "@/assets/images/coffeeProject.png";
 
 const portfolioProjects = [
   {
-    year: "Ongoing Project",
-    title: "User Engagement Analysis",
+    year: "Currently Working On",
+    title: "CafePulse: Sales Dashboard",
     isOngoing: true,
     results: [
-      { title: "Analyze trends for customer loyalty" },
-      { title: "Predict trends in customer visits" },
-      { title: "Pinpoint factors boosting ratings" },
+      { title: "Visualize key sales metrics dynamically" },
+      { title: "Track performance by category" },
+      { title: "Gain insights on product performance" },
     ],
     liveLink: "",
     githubLink: "",
-    image: ongoingProject,
+    image: coffeeProject,
   },
   {
-    year: "Oct 2024",
+    year: "October 2024",
     title: "WhatsApp Chat Analyzer",
     isOngoing: false,
     results: [
@@ -56,7 +56,7 @@ export const ProjectsSection = () => {
       <div className="container">
         <SectionHeader
           eyebrow="Real-World Applications"
-          title="Featured Projects"
+          title="Showcase Projects"
           description="Unlocking insights through innovative data analysis."
         />
         <div className="flex flex-col mt-10 md:mt-20 gap-20">
