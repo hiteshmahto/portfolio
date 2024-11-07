@@ -72,8 +72,8 @@ export const ProjectsSection = () => {
                 <div className="lg:pb-16">
                   <div className="flex items-center gap-2">
                     {project.isOngoing && (
-                      <div className="bg-green-500 size-2.5 rounded-full relative">
-                        <div className="bg-green-500 absolute inset-0 rounded-full animate-ping-large"></div>
+                      <div className="bg-green-400 size-2.5 rounded-full relative">
+                        <div className="bg-green-400 absolute inset-0 rounded-full animate-ping-large"></div>
                       </div>
                     )}
                     <span className="bg-gradient-to-r from-emerald-300 to-sky-400 inline-flex gap-2 font-bold uppercase tracking-widest text-sm text-transparent bg-clip-text">

@@ -119,8 +119,8 @@ export const HeroSection = () => {
             alt="Person peeking from behind laptop"
           />
           <div className="bg-gray-950 border border-gray-800 px-4 py-1.5 inline-flex items-center gap-4 rounded-lg">
-            <div className="bg-green-500 size-2.5 rounded-full relative">
-              <div className="bg-green-500 absolute inset-0 rounded-full animate-ping-large"></div>
+            <div className="bg-green-400 size-2.5 rounded-full relative">
+              <div className="bg-green-400 absolute inset-0 rounded-full animate-ping-large"></div>
             </div>
             <div className="text-sm font-medium">Open for Work</div>
           </div>
@@ -137,7 +137,9 @@ export const HeroSection = () => {
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
           <button
             className="inline-flex items-center gap-2 border border-white/15 bg-white text-gray-900 h-12 px-6 rounded-xl z-0 hover:bg-gray-200 hover:text-gray-800 transition duration-200"
-            onClick={() => window.open("/hitesh_resume.pdf", "_blank")}
+            onClick={() =>
+              window.open("/hitesh_mahto_resume_updated.pdf", "_blank")
+            }
           >
             <span className="font-semibold">Download Resume</span>
             <DownloadIcon className="size-6" />
