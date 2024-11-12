@@ -79,8 +79,8 @@ const toolBoxItems = [
 
 const hobbies = [
   {
-    title: "Painting",
-    emoji: "🎨",
+    title: "Doodling & Sketching",
+    emoji: "✏️",
     left: "5%",
     top: "5%",
   },
@@ -91,14 +91,14 @@ const hobbies = [
     top: "5%",
   },
   {
-    title: "Music",
+    title: "Chilling with Music",
     emoji: "🎶",
     left: "10%",
     top: "35%",
   },
   {
-    title: "Cooking",
-    emoji: "🧑🏻‍🍳",
+    title: "Socializing",
+    emoji: "👥",
     left: "35%",
     top: "40%",
   },
@@ -155,7 +155,7 @@ export const AboutSection = () => {
             <Card className="h-[320px] md:col-span-2 lg:col-span-1">
               <CardHeader
                 title="My Reads"
-                description="Explore the books shaping my perspectives."
+                description="Exploring fresh perspectives with my current read."
               />
               <div className="w-40 mx-auto mt-2 md:mt-0">
                 <Image src={bookImage} alt="Book Cover" />
