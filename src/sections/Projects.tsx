@@ -6,21 +6,21 @@ import whatsappAppAnalyzer from "@/assets/images/whatsapp-app-analyzer.png";
 import spotifyClone from "@/assets/images/spotify.png";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
-import coffeeProject from "@/assets/images/coffeeProject.png";
+import ongoingProject from "@/assets/images/ongoingProject.png";
 
 const portfolioProjects = [
   {
     year: "Currently Working On",
-    title: "CafePulse: Sales Dashboard",
+    title: "Adventure Works BI Dashboard",
     isOngoing: true,
     results: [
-      { title: "Visualize key sales metrics dynamically" },
-      { title: "Track performance by category" },
-      { title: "Gain insights on product performance" },
+      { title: "Track KPIs with interactive visuals" },
+      { title: "Empowering data-driven decision-making" },
+      { title: "Comprehensive insights into business performance" },
     ],
     liveLink: "",
     githubLink: "",
-    image: coffeeProject,
+    image: ongoingProject,
   },
   {
     year: "October 2024",
