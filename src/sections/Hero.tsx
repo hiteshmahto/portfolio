@@ -97,6 +97,19 @@ export const HeroSection = () => {
         >
           <SparkleIcon className="size-14 text-emerald-300/20" />
         </HeroOrbit>
+        <HeroOrbit
+          size={200}
+          rotation={144}
+          shouldOrbit
+          orbitDuration="10s"
+          shouldSpin
+          spinDuration="3s"
+        >
+          <SparkleIcon className="size-14 text-emerald-300/20" />
+        </HeroOrbit>
+        <HeroOrbit size={250} rotation={-41} shouldOrbit orbitDuration="18s">
+          <div className="size-4 bg-emerald-300/20 rounded-full" />
+        </HeroOrbit>
         <HeroOrbit size={720} rotation={85} shouldOrbit orbitDuration="36s">
           <div className="size-3 bg-emerald-300/20 rounded-full" />
         </HeroOrbit>
@@ -109,6 +122,36 @@ export const HeroSection = () => {
           spinDuration="6s"
         >
           <StarIcon className="size-28 text-emerald-300" />
+        </HeroOrbit>
+        <HeroOrbit
+          size={600}
+          rotation={-72}
+          shouldOrbit
+          orbitDuration="8s"
+          shouldSpin
+          spinDuration="12s"
+        >
+          <StarIcon className="size-20 text-emerald-300/10" />
+        </HeroOrbit>
+        <HeroOrbit
+          size={650}
+          rotation={-72}
+          shouldOrbit
+          orbitDuration="30s"
+          shouldSpin
+          spinDuration="6s"
+        >
+          <StarIcon className="size-20 text-emerald-300" />
+        </HeroOrbit>
+        <HeroOrbit
+          size={900}
+          rotation={-72}
+          shouldOrbit
+          orbitDuration="40s"
+          shouldSpin
+          spinDuration="6s"
+        >
+          <StarIcon className="size-24 text-emerald-300" />
         </HeroOrbit>
       </div>
       <div className="container">
