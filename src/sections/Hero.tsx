@@ -113,11 +113,14 @@ export const HeroSection = () => {
         <HeroOrbit size={720} rotation={85} shouldOrbit orbitDuration="36s">
           <div className="size-3 bg-emerald-300/20 rounded-full" />
         </HeroOrbit>
+        <HeroOrbit size={890} rotation={15} shouldOrbit orbitDuration="10s">
+          <div className="size-8 bg-emerald-300/40 rounded-full" />
+        </HeroOrbit>
         <HeroOrbit
           size={800}
           rotation={-72}
           shouldOrbit
-          orbitDuration="38s"
+          orbitDuration="18s"
           shouldSpin
           spinDuration="6s"
         >
@@ -125,11 +128,11 @@ export const HeroSection = () => {
         </HeroOrbit>
         <HeroOrbit
           size={600}
-          rotation={-72}
+          rotation={-12}
           shouldOrbit
           orbitDuration="8s"
           shouldSpin
-          spinDuration="12s"
+          spinDuration="2s"
         >
           <StarIcon className="size-20 text-emerald-300/10" />
         </HeroOrbit>
@@ -141,7 +144,7 @@ export const HeroSection = () => {
           shouldSpin
           spinDuration="6s"
         >
-          <StarIcon className="size-20 text-emerald-300" />
+          <StarIcon className="size-20 text-emerald-300/10" />
         </HeroOrbit>
         <HeroOrbit
           size={900}
