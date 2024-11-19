@@ -1,6 +1,7 @@
 "use client";
 
 import memojiImage from "@/assets/images/memoji-computer.png";
+import avatar from "@/assets/images/avatar.png";
 import Image from "next/image";
 import ArrowDown from "@/assets/icons/arrow-down.svg";
 import grainImage from "@/assets/images/grain.jpg";
@@ -159,11 +160,7 @@ export const HeroSection = () => {
       </div>
       <div className="container">
         <div className="flex flex-col items-center">
-          <Image
-            src={memojiImage}
-            className="size-[100px]"
-            alt="Person peeking from behind laptop"
-          />
+          <Image src={avatar} className="size-[100px]" alt="Hitesh Mahto" />
           <div className="bg-gray-950 border border-gray-800 px-4 py-1.5 inline-flex items-center gap-4 rounded-lg">
             <div className="bg-green-400 size-2.5 rounded-full relative">
               <div className="bg-green-400 absolute inset-0 rounded-full animate-ping-large"></div>
