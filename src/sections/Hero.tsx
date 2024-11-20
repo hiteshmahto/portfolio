@@ -199,7 +199,7 @@ export const HeroSection = () => {
             <DownloadIcon className="size-6" />
           </button>
           <button
-            className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl z-20 group hover:bg-white/5 transition duration-200"
+            className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl z-20 hover:bg-white/5 transition duration-200"
             onClick={() => {
               const projectSection = document.getElementById("projects");
               if (projectSection) {
@@ -208,7 +208,7 @@ export const HeroSection = () => {
             }}
           >
             <span className="font-semibold">Explore My Work</span>
-            <ArrowDown className="size-4 group-hover:animate-bounceDownUp" />
+            <ArrowDown className="size-4 animate-bounceDownUp" />
           </button>
         </div>
       </div>

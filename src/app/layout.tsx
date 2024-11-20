@@ -11,15 +11,15 @@ const calistoga = Calistoga({
 });
 
 export const metadata: Metadata = {
-  title: "Hitesh Mahto - Portfolio | Data Scientist & Developer",
+  title: "Hitesh Mahto - Portfolio",
   description:
-    "Welcome to Hitesh Mahto's professional portfolio. Explore projects, skills, and insights in data science, web development, and analytics. Dedicated to solving real-world problems using technology and continuous learning.",
+    "Welcome to Hitesh Mahto's professional portfolio. Explore projects, skills, and learning journey in data science, web development, and analytics. Eager to solve real-world problems using technology and continuous learning.",
   keywords:
-    "Hitesh Mahto, portfolio, data science, web development, analytics, Power BI, Python, Pandas, NumPy, Matplotlib, Tailwind CSS, developer, projects, machine learning, AI, data analysis, business insights, visualization, coding, programming, frontend developer, backend developer, full-stack developer, software engineer",
+    "Hitesh Mahto, portfolio, data science, web development, data analysis, Power BI, Python, Pandas, NumPy, Matplotlib, Tailwind CSS, projects, machine learning, AI, coding, programming, job seeker, frontend developer, backend developer, full-stack developer, software engineer",
   openGraph: {
-    title: "Hitesh Mahto - Data Scientist & Developer Portfolio",
+    title: "Hitesh Mahto - Portfolio",
     description:
-      "Discover the professional portfolio of Hitesh Mahto. Learn about projects and expertise in data science, web development, and data-driven insights.",
+      "Discover the learning journey and professional aspirations of Hitesh Mahto. Learn about projects, skills, and expertise being developed in data science and web development.",
     url: "https://www.hiteshmahto.tech/",
     type: "website",
     images: [
@@ -87,9 +87,9 @@ export default function RootLayout({
                 "https://github.com/hiteshmahto",
                 "https://leetcode.com/u/hiteshmahto/",
               ],
-              jobTitle: "Data Scientist, Web Developer, Data Analyst",
+              jobTitle: "Aspiring Data Scientist, Web Developer, Data Analyst",
               description:
-                "An experienced professional skilled in data analysis, web development, and crafting data-driven solutions using technologies like Python, Power BI, Pandas, NumPy, Matplotlib, Seaborn, HTML, CSS, and JavaScript.",
+                "A passionate learner working towards building expertise in data analysis, web development, and crafting data-driven solutions using technologies like Python, Power BI, Pandas, NumPy, Matplotlib, HTML, CSS, and JavaScript.",
             }),
           }}
         />
