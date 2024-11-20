@@ -25,10 +25,10 @@ export const ContactSection = () => {
               backgroundImage: `url(${grainImage.src})`,
             }}
           ></div>
-          <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center">
+          <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center md:justify-between">
             <div>
               <h2 className="font-serif text-2xl md:text-3xl">
-                Ready to make informed decisions? Let&apos;s talk!
+                Need data-driven solutions? Let&apos;s connect!
               </h2>
               <p className="text-lg md:text-xl mt-4 inline-flex items-center gap-2 relative">
                 <span>hiteshmahto786@gmail.com</span>
