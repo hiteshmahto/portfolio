@@ -35,7 +35,7 @@ export const Footer = () => {
       ></div>
       <div className="container">
         <div className="border-t border-white/15 py-6 text-lg flex flex-col md:flex-row md:justify-between items-center gap-8">
-          <div className="text-white/40">Made with Love💖</div>
+          <div className="text-white/40 font-serif">Made with Love💖</div>
           <nav className="flex flex-col md:flex-row items-center gap-8">
             {footerLinks.map(link => (
               <a
